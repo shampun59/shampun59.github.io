@@ -1,0 +1,92 @@
+@font-face {
+  font-family: 'icons';
+  src: url('../fonts/icons.eot?astk71');
+  src: url('../fonts/icons.eot?astk71#iefix') format('embedded-opentype'),
+    url('../fonts/icons.ttf?astk71') format('truetype'),
+    url('../fonts/icons.woff?astk71') format('woff'),
+    url('../fonts/icons.svg?astk71#icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"]::before,
+[class*=" icon-"]::before {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-phone:before {
+  content: "\e900";
+  color: #6e7191;
+}
+
+.icon-tg:before {
+  content: "\e901";
+  color: #6e7191;
+}
+
+.icon-vk:before {
+  content: "\e902";
+  color: #6e7191;
+}
+
+.icon-check:before {
+  content: "\e903";
+  color: #6e7191;
+}
+
+.icon-info:before {
+  content: "\e904";
+  color: #6e7191;
+}
+
+.icon-credit-card:before {
+  content: "\e93f";
+}
+
+.icon-search:before {
+  content: "\e986";
+}
+
+.icon-enter:before {
+  content: "\ea13";
+}
+
+.icon-exit:before {
+  content: "\ea14";
+}
+
+.icon-arrow-up2:before {
+  content: "\ea3a";
+}
+
+.icon-arrow-right2:before {
+  content: "\ea3c";
+}
+
+.icon-arrow-down2:before {
+  content: "\ea3e";
+}
+
+.icon-arrow-left2:before {
+  content: "\ea40";
+}
+
+.icon-mail4:before {
+  content: "\ea86";
+}
+
+.icon-linkedin:before {
+  content: "\eac9";
+}

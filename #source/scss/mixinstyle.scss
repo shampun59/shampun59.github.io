@@ -1,0 +1,11 @@
+@mixin flc($f, $l, $c) {
+	font-size: $f;
+	line-height: $l;
+	color: $c;
+}
+
+
+// чтобы подключить 
+// .Link{
+//  @include fontz(100px,125%, #000);
+// }

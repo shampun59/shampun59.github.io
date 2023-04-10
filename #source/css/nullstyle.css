@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700&display=swap");
+@font-face {
+  font-family: "SF Pro Text";
+  src: url("../font/SFProText-Regular.eot");
+  src: url("../font/SFProText-Regular.eot?#iefix") format("embedded-opentype"), url("../font/SFProText-Regular.woff2") format("woff2"), url("../font/SFProText-Regular.woff") format("woff"), url("../font/SFProText-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SF Pro Text";
+  src: url("../font/SFProText-Semibold.eot");
+  src: url("../font/SFProText-Semibold.eot?#iefix") format("embedded-opentype"), url("../font/SFProText-Semibold.woff2") format("woff2"), url("../font/SFProText-Semibold.woff") format("woff"), url("../font/SFProText-Semibold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SF Compact Display";
+  src: url("../font/SFCompactDisplay-Regular.eot");
+  src: url("../font/SFCompactDisplay-Regular.eot?#iefix") format("embedded-opentype"), url("../font/SFCompactDisplay-Regular.woff2") format("woff2"), url("../font/SFCompactDisplay-Regular.woff") format("woff"), url("../font/SFCompactDisplay-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a {
+  color: #fff;
+}
+
+a.disabled {
+  pointer-events: none;
+}
+
+button.disabled {
+  pointer-events: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+  color: #fff;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  line-height: 1;
+  font-size: 18px;
+  color: #6E7191;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}

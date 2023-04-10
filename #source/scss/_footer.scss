@@ -1,0 +1,81 @@
+//==========================FOOTER============================================================================================================================================
+.footer {
+	width: 100%;
+	background: radial-gradient(39.27% 73.2% at 26.12% 77.65%, #8436E8 0%, #5D26A9 24.57%, #3D186D 64.93%, #290C4F 100%);
+	// .footer__container
+
+	&__container {}
+
+	// .footer__body
+
+	&__body {
+		display: grid;
+
+		@media (min-width: $md5) {
+			grid-auto-flow: column;
+		}
+
+		@media (max-width: $md5) {
+			justify-content: center;
+			text-align: center;
+			gap: 20px;
+		}
+
+		justify-content: space-between;
+		align-items: center;
+		padding: 20px 0px;
+	}
+
+	// .footer__logo
+
+	&__logo {
+		color: #fff;
+		font-weight: 900;
+		position: relative;
+		z-index: 5;
+		@include adaptiv-value("font-size", 32, 30, 1);
+	}
+
+	// .footer__copy
+
+	&__copy {
+		opacity: 0.6;
+		color: $grayColor;
+		line-height: 150%;
+		font-weight: 700;
+	}
+
+	// .footer__icons
+
+	&__icons {
+		display: grid;
+		grid-auto-flow: column;
+		align-items: center;
+		gap: 10px;
+	}
+
+	// .footer__ico
+
+	&__ico {
+		&:nth-child(1) {
+			&:before {
+				color: $cyanColor;
+				font-size: 20px;
+			}
+		}
+
+		&:nth-child(2) {
+			&:before {
+				color: $cyanColor;
+				font-size: 20px;
+			}
+		}
+
+		&:nth-child(3) {
+			&:before {
+				font-size: 30px;
+				color: #fff;
+			}
+		}
+	}
+}
